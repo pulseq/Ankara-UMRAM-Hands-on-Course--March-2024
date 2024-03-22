@@ -2,7 +2,7 @@
 Materials for Hands-on Training held at UMRAM in Ankara on 25th & 26th March 2024
 
 The preliminary program of the training course: 
-|time (UTC)|duration|topic                                                              |speaker                         |
+|time      |duration|topic                                                              |speaker                         |
 |----------|--------|-------------------------------------------------------------------|--------------------------------|
 |**Day 1** |        |                                                                   |                                |
 |08:30     |120     |Basic Principles of MRI Pulse Sequences: Write Your First Sequence |Sebastian Littin & Qingping Chen|
