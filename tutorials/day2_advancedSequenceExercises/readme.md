@@ -1,4 +1,4 @@
-# Basic Pulseq Tutorial
+# Advanced Pulseq Tutorial
 ## 1. Prerequisites
 ### 1.1 Programming Tools
 Matlab software (https://mathworks.com/products/matlab.html) needs to be installed in your computer.   
