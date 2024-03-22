@@ -16,22 +16,21 @@ step. *Meld* software can be used for text comparison and can be downloaded from
 
 ## 2. Sequence Folder
 ### 2.1 Basic MR Spectroscopy
-* *s01_FID*: the simplest free induction decay (FID) sequence;   
-* *s02_SE*: spin-echo (SE) sequence without gradients;   
-* *s03_SE_crushers*: SE sequence with a pair of crushers to eliminate spurious signals arising from the imperfect 180 deg RF pulse.   
+* *ex01_fid*: the simplest free induction decay (FID) sequence;   
+* *ex02_fid2se*: spin-echo (SE) sequence without gradients;   
+* *ex03_se_crushers*: SE sequence with a pair of crushers to eliminate spurious signals arising from the imperfect 180-degree RF pulse.
+* *ex04_fid2gre1d*: from FID to 1D gradient recalled echo (GRE) sequence.   
 ### 2.2 Basic MR Imaging
-* *s11_GRE2D*: basic 2D gradient echo (GRE) sequence;   
-* *s12_GRE2D_optimizedSpoiler*: 2D GRE with optimized spoiler timing;   
-* *s13_GRE2D_acceleratedComputation*: 2D GRE with optimized spoiler timing and accelerated computation.   
+* *ex11_gre1d2gre2d*: from 1D GRE to basic 2D GRE sequence;   
+* *ex12_gre2d_lbl*: To implement labels to basic 2D GRE (ex11);   
+* *ex13_gre2d_gradSpoil*: to implement gradient spoiling in readout and slice-selective directions for ex12.
+* *ex14_gre2d_PErefocus*: to implement refocusing in phase-encoding direction for ex13.
+* *ex15_gre2d_RFspoil*: to implement RF spoiling for ex14.
+* *ex16_flash_fasterTming*: to shorten the duration of ex15 by doing "gradient surgery".
+* *ex17_flash_accelerateComputation*: to accelerate the computation time for ex16.(optional) 
 
-## 3. Data Folder
-It contains the link to six k-space raw data acquired from the above sequences.      
+## 3. Data and recon Folder
+It contains the raw data, DICOM images, and reconstruction of each exercise.     
 
-## 4. Recon Folder
-It contains six *.seq* files produced by the above sequences and the corresponding reconstruction scripts.  
-
-## 5. Results Folder
-It contains k-space raw data and reconstructed spectra/images from the six sequences.
-
-## 6. A More Detailed Pulseq Tutorial
+## 4. A More Detailed Pulseq Tutorial
 This Pulseq tutorial only covers very basic sequence design concepts. For more detailed tutorials, please go to https://github.com/pulseq/tutorials.    
