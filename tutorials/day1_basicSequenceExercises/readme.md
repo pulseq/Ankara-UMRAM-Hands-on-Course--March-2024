@@ -23,11 +23,11 @@ step. *Meld* software can be used for text comparison and can be downloaded from
 ### 2.2 Basic MR Imaging
 * *ex11_gre1d2gre2d*: from 1D GRE to basic 2D GRE sequence;   
 * *ex12_gre2d_lbl*: To implement labels to basic 2D GRE (ex11);   
-* *ex13_gre2d_gradSpoil*: to implement gradient spoiling in readout and slice-selective directions for ex12.
-* *ex14_gre2d_PErefocus*: to implement refocusing in phase-encoding direction for ex13.
-* *ex15_gre2d_RFspoil*: to implement RF spoiling for ex14.
-* *ex16_flash_fasterTming*: to shorten the duration of ex15 by doing "gradient surgery".
-* *ex17_flash_accelerateComputation*: to accelerate the computation time for ex16.(optional) 
+* *ex13_gre2d_gradSpoil*: to implement gradient spoiling in readout and slice-selective directions for ex12;
+* *ex14_gre2d_PErefocus*: to implement refocusing in phase-encoding direction for ex13;
+* *ex15_gre2d_RFspoil*: to implement RF spoiling for ex14;
+* *ex16_flash_fasterTming*: to shorten the duration of ex15 by doing "gradient surgery";
+* *ex17_flash_accelerateComputation*: to accelerate the computation time for ex16 (optional). 
 
 Note: *solXX* are the corresponding solution to the exercise *exXX*.   
 ## 3. Data and recon Folder
