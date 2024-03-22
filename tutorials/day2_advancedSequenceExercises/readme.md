@@ -1,37 +1,11 @@
 # Advanced Pulseq Tutorial
-## 1. Prerequisites
-### 1.1 Programming Tools
-Matlab software (https://mathworks.com/products/matlab.html) needs to be installed in your computer.   
-Basic familiarity with Matlab programming is required.   
-### 1.2 Pulseq Software
-Please download the Pulseq software from https://github.com/pulseq/pulseq. Install Pulseq software in Matlab by adding its directory and subdirectories to Matlab's path.   
-### 1.3 mapVBVD Software
-The mapVBVD software is required to read raw data in Siemens TWIX format. The software can be downloaded from https://github.com/pehses/mapVBVD and installed by adding its directory to Matlab's path.
-### 1.4 Text Compare Tool
-We recommend using a text comparison tool to compare the sequences within the subsequent steps to visualize the changes that occur at each
-step. *Meld* software can be used for text comparison and can be downloaded from <https://meldmerge.org/>. By using Meld or other comparable software packages, it is possible to very quickly make the relevant changes easily visible, as in the example below.
+## 1. Sequence Folder
+* *ex21_gre_multiecho*: to implement second echo for ex15;   
+* *ex22_gre_reordering*: to implement phase-encoding reordering for ex15;   
+* *ex23_gre_grappa*: to implement GRAPPA for ex15.
+* *ex24_gre2radial*: to modify ex15 to be 2D radial.
 
-![meld](https://github.com/pulseq/ISMRM-Virtual-Meeting--November-15-17-2023/assets/26165904/306150db-68d7-4a8b-8eb3-13b8fccfc3a2)
+Note: *solXX* are the corresponding solution to the exercise *exXX*.
 
-
-## 2. Sequence Folder
-### 2.1 Basic MR Spectroscopy
-* *s01_FID*: the simplest free induction decay (FID) sequence;   
-* *s02_SE*: spin-echo (SE) sequence without gradients;   
-* *s03_SE_crushers*: SE sequence with a pair of crushers to eliminate spurious signals arising from the imperfect 180 deg RF pulse.   
-### 2.2 Basic MR Imaging
-* *s11_GRE2D*: basic 2D gradient echo (GRE) sequence;   
-* *s12_GRE2D_optimizedSpoiler*: 2D GRE with optimized spoiler timing;   
-* *s13_GRE2D_acceleratedComputation*: 2D GRE with optimized spoiler timing and accelerated computation.   
-
-## 3. Data Folder
-It contains the link to six k-space raw data acquired from the above sequences.      
-
-## 4. Recon Folder
-It contains six *.seq* files produced by the above sequences and the corresponding reconstruction scripts.  
-
-## 5. Results Folder
-It contains k-space raw data and reconstructed spectra/images from the six sequences.
-
-## 6. A More Detailed Pulseq Tutorial
-This Pulseq tutorial only covers very basic sequence design concepts. For more detailed tutorials, please go to https://github.com/pulseq/tutorials.    
+## 2. Data and Recon Folder
+It contains the raw data, DICOM images, and reconstruction for each exercise.      
