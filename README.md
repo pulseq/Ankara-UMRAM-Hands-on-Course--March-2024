@@ -1,5 +1,5 @@
 # Ankara-UMRAM-Hands-on-Course--March-2024
-Materials for Hands-on Training held at UMRAM in Ankara in 25th & 26th March 2024
+Materials for Hands-on Training held at UMRAM in Ankara on 25th & 26th March 2024
 
 The preliminary program of the training course: 
 |time (UTC)|duration|topic                                                              |speaker                         |
