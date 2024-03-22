@@ -5,7 +5,7 @@ The preliminary program of the training course:
 |time (UTC)|duration|topic                                                              |speaker                         |
 |----------|--------|-------------------------------------------------------------------|--------------------------------|
 |**Day 1** |        |                                                                   |                                |
-|08:30     |120     |Basic Principles of MRI Pulse Sequences: Write Your First Sequence |Sebastian Littin                |
+|08:30     |120     |Basic Principles of MRI Pulse Sequences: Write Your First Sequence |Sebastian Littin & Qingping Chen|
 |10:30     |30      |*Break*                                                            |                                |
 |11:00     |30      |Basic Principles of Pulseq                                         |Sebastian Littin                |
 |11:30     |90      |*Lunch*                                                            |                                |
@@ -16,7 +16,7 @@ The preliminary program of the training course:
 |08:00     |45      |MRI Hardware and Imperfections                                     |Sebastian Littin                |
 |08:45     |45      |K-Space Sampling Trajectories                                      |Qingping Chen                   |
 |09:30     |30      |*Break*                                                            |                                |
-|10:00     |120     |Advanced Sequence Exercises                                        |Qingping Chen & Sebastian Littin|
+|10:00     |120     |Advanced Sequence Exercises: What We Can Get from GRE?             |Qingping Chen & Sebastian Littin|
 |12:00     |90      |*Lunch*                                                            |                                |
 |13:30     |120     |Scanner Hands-on                                                   |Qingping Chen & Sebastian Littin|
 |15:30     |30      |*Break*                                                            |                                |
