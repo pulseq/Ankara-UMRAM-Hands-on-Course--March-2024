@@ -29,7 +29,7 @@ step. *Meld* software can be used for text comparison and can be downloaded from
 * *ex16_flash_fasterTming*: to shorten the duration of ex15 by doing "gradient surgery";
 * *ex17_flash_accelerateComputation*: to accelerate the computation time for ex16 (optional). 
 
-Note: *solXX* are the corresponding solution to the exercise *exXX*.   
+Note: *solXX* is the corresponding solution to the exercise *exXX*.   
 ## 3. Data and recon Folder
 It contains the raw data, DICOM images, and reconstruction of each exercise.     
 
