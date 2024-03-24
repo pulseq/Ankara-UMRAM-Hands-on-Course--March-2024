@@ -5,7 +5,7 @@
 * *ex23_gre_grappa*: to implement GRAPPA for ex15;
 * *ex24_gre2radial*: to modify ex15 to be 2D radial.
 
-Note: *solXX* are the corresponding solution to the exercise *exXX*.
+Note: *solXX* is the corresponding solution to the exercise *exXX*.
 
 ## 2. Data and Recon Folder
 It contains the raw data, DICOM images, and reconstruction for each exercise.      
