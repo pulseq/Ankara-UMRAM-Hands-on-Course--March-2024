@@ -8,4 +8,9 @@
 Note: *solXX* is the corresponding solution to the exercise *exXX*.
 
 ## 2. Data and Recon Folder
-It contains the raw data, DICOM images, and reconstruction for each exercise.      
+It contains the raw data, DICOM images, and reconstruction for each exercise.         
+
+
+
+
+If you would like to test your sequences on the scanner, upload your .seq files here: https://drive.google.com/drive/folders/1TjqbwdDk7wM2NZbqTGOStxC6KcUUKT5i?usp=drive_link
