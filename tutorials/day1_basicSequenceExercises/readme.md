@@ -36,4 +36,5 @@ It contains the raw data, DICOM images, and reconstruction of each exercise.
 ## 4. A More Detailed Pulseq Tutorial
 This Pulseq tutorial only covers very basic sequence design concepts. For more detailed tutorials, please go to https://github.com/pulseq/tutorials.    
 
-If you would like to test your sequences on the scanner, upload your .seq files here: https://drive.google.com/drive/folders/1TjqbwdDk7wM2NZbqTGOStxC6KcUUKT5i?usp=drive_link
+If you would like to test your sequences on the scanner, upload your .seq files here: 
+https://drive.google.com/drive/folders/1Ly2LpkVpUcOIyIWgO_owuO3G4oTR4TCB?usp=drive_link
