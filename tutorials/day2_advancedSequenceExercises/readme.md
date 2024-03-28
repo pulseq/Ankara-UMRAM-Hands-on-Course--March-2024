@@ -15,4 +15,3 @@ It contains the raw data, DICOM images, and reconstruction for each exercise.
 
 If you would like to test your sequences on the scanner, upload your .seq files here: 
 https://drive.google.com/drive/folders/15xnjoExOUMLLI2uzzAIhNLXzW-iW-Pdd?usp=drive_link    
-qingping.chen@uniklinik-freiburg.de
